@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+.sidebar{
+    margin: 20px;
+    height: 600px;
+    width: 20%;
+    display: inline-block;
+    position: fixed;
+    border: 2px orange solid;
+
+}
+.sidebar .logo{
+    height: 50px;
+    background-color: white;
+    display: flex;
+}
+.sidebar .logo img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+.sidebar .logo p{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 0px;
+    
+}
+.sidebar .menu{
+    top: 50px;
+    height: 500px;
+    background-color: white;
+}
+.sidebar .menu .searchbar{
+    display: flex;
+
+}
+.sidebar .menu .searchbar .search{
+    position: relative;
+    transform:translateX(40px);
+    cursor: pointer;
+  }
+.sidebar .menu .searchbar input{
+    padding: 6px;
+    width:100%;
+    border-radius: 15px ;
+    background-color: rgb(238, 237, 237);
+}
+.sidebar .profile{
+    top: 550px;
+    height: 150px;
+    background-color: aquamarine;
+}
