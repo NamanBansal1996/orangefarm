@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.row2 .widget1{
+ width: 556px;
+height: 400px;
+padding: 24px 0px 24px 0px;
+border-radius: 16px;
+gap: 16px;
+display: flex;
+flex-direction: row;
+background-color: white;
+
+}
+.row2 .widget1 .heading{
+    display: flex;
+    justify-content: space-between;
+}
+

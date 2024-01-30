@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.row1{
+    height: 261.61px;
+    width: 1112px ;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.row1 .revenue{
+
+    height: 261.61px;
+    width: 410px;
+    border-radius: 16px;
+    padding: 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.row1 .revenue .heading{
+    width: 362px;
+height: 40px;
+padding: 0px 0px 16px 0px;
+gap: 8px;
+
+}
+.row1 .revenue .number{
+    width: 129px;
+height:58px;
+font-size:55px ;
+gap: 8px;
+
+}
+.row1 .revenue .compare{
+    width: 202px;
+height: 17px;
+font-size: 10px;
+color:  #454545;
+}
+
+.row1 .revenue .report{
+width: 123px;
+height: 74.61px;
+display: flex;
+padding: 16px 0px 0px 0px;
+gap: 8px;
+}
+
+/* ----------------lost deals */
+.row1 .lostdeals{
+
+    height: 261.61px;
+    width: 410px;
+    border-radius: 16px;
+    padding: 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.row1 .lostdeals .heading{
+width: 362px;
+height: 40px;
+padding: 0px 0px 16px 0px;
+gap: 8px;
+
+}
+.row1 .lostdeals .number{
+    width: 129px;
+height:58px;
+font-size:55px ;
+gap: 8px;
+
+}
+.row1 .lostdeals .compare{
+    width: 202px;
+height: 17px;
+font-size: 14px;
+color:  #454545;
+}
+
+.row1 .lostdeals .report{
+width: 72px;
+height: 74.61px;
+display: flex;
+padding: 16px 0px 0px 0px;
+gap: 8px;
+}
+
+/* ---------quarter goals  */
+.row1 .deals{
+
+    height: 261.61px;
+    width: 260px;
+    border-radius: 16px;
+    padding: 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.row1 .deals .heading{
+    width: 212px;
+height: 40px;
+padding: 0px 0px 16px 0px;
+gap: 8px;
+
+}
+.row1 .deals .number{
+    width: 212px;
+height:102px;
+font-size:55px ;
+gap: 8px;
+
+}
+
+.row1 .deals .report{
+width: 72px;
+height: 75px;
+display: flex;
+padding: 16px 0px 0px 0px;
+gap: 8px;
+}

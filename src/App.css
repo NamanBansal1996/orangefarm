@@ -1,4 +1,4 @@
-.main{
+main{
   Width:1440px;
 Height: 922px;
 Top:-520px;
@@ -6,6 +6,9 @@ Left:-521px;
 border-radius:32px;
 Padding:16px;
 Gap:16px;
-position:fixed;
+
 background-color: #F6F6F3;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
