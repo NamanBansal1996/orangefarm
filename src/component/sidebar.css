@@ -5,11 +5,11 @@
 }
 .sidebar{
     margin: 20px;
-    height: 600px;
-    width: 20%;
-    display: inline-block;
-    position: fixed;
-    border: 2px orange solid;
+    height: 890px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    border:2px solid orange;
 
 }
 .sidebar .logo{
@@ -30,26 +30,106 @@
 }
 .sidebar .menu{
     top: 50px;
-    height: 500px;
+    height: 640px;
+    width:280px;
     background-color: white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
 }
 .sidebar .menu .searchbar{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:52px;
+    width:264px;
+    border-radius: 30px;
 
 }
 .sidebar .menu .searchbar .search{
     position: relative;
     transform:translateX(40px);
     cursor: pointer;
+    
   }
 .sidebar .menu .searchbar input{
-    padding: 6px;
-    width:100%;
-    border-radius: 15px ;
+    /* padding: 6px; */
+    border-radius: 15px;
     background-color: rgb(238, 237, 237);
+    font-size: 20px;
 }
+.sidebar .menu .dashboard{
+    height:40px;
+    width: 264px;
+    border-radius: 24px;
+    display:flex;
+    gap:12px;
+    padding: 12px 20px 12px 20px;
+
+}
+.sidebar .menu .dashboard p{
+    font-size: 20px;
+}
+
+.sidebar .menu .customers{
+    height:40px;
+    width: 264px;
+    border-radius: 24px;
+    display:flex;
+    gap:12px;
+    padding: 12px 20px 12px 20px;
+
+}
+.sidebar .menu .reports{
+    height:40px;
+    width: 264px;
+    border-radius: 24px;
+    display:flex;
+    gap:12px;
+    padding: 12px 20px 12px 20px;
+
+}
+.sidebar .menu .geography{
+    height:40px;
+    width: 264px;
+    border-radius: 24px;
+    display:flex;
+    gap:12px;
+    padding: 12px 20px 12px 20px;
+
+}
+.sidebar .menu .conversations{
+    height:40px;
+    width: 264px;
+    border-radius: 24px;
+    display:flex;
+    gap:12px;
+    padding: 12px 20px 12px 20px;
+
+}
+.sidebar .menu .deals{
+    height:40px;
+    width: 264px;
+    border-radius: 24px;
+    display:flex;
+    gap:12px;
+    padding: 12px 20px 12px 20px;
+
+}
+.sidebar .menu .export{
+    height:40px;
+    width: 264px;
+    border-radius: 24px;
+    display:flex;
+    gap:12px;
+    padding: 12px 20px 12px 20px;
+
+}
+
 .sidebar .profile{
     top: 550px;
-    height: 150px;
+    height: 180px;
+    width:280px;
     background-color: aquamarine;
 }
