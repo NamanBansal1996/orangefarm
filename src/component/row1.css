@@ -10,12 +10,10 @@
     width: 1112px ;
     gap: 16px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
 }
 .row1 .revenue{
-
     height: 261.61px;
     width: 410px;
     border-radius: 16px;
