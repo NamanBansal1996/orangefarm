@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
-
 .row2{
     display:flex;
     height: 400px;
@@ -57,6 +56,7 @@ border-radius: 16px;
 margin: 0px 0px 1px 0px;
 gap: 12px;
 display: flex;
+
 }
 .row2 .widget1 .list .customer1:hover{
     color: Light Orange;
@@ -113,9 +113,10 @@ gap: 8px;
     height: 68px;
     padding: 16px;
     border-radius: 16px;
-    border: 0px 0px 1px 0px;
+    margin: 0px 0px 1px 0px;
     gap: 12px;
     display: flex;
+    background-color: white;
     }
 
     .row2 .widget1 .list .customer2:hover{
@@ -167,17 +168,16 @@ gap: 8px;
     gap: 8px;
     
     }
-   
-
 /* ---------customer3------------ */
 .row2 .widget1 .list .customer3{
     width: 540px;
     height: 68px;
     padding: 16px;
     border-radius: 16px;
-    border: 0px 0px 1px 0px;
+    margin: 0px 0px 1px 0px;
     gap: 12px;
     display: flex;
+    background-color: white;
     }
     .row2 .widget1 .list .customer3:hover{
     color: Light Orange;
@@ -228,16 +228,16 @@ height: 36px;
 gap: 8px;
 
 }
-
     /* ------------customer4------ */
     .row2 .widget1 .list .customer4{
         width: 540px;
         height: 68px;
         padding: 16px;
         border-radius: 16px;
-        border: 0px 0px 1px 0px;
+        margin: 0px 0px 1px 0px;
         gap: 12px;
         display: flex;
+        background-color: white;
         }
         .row2 .widget1 .list .customer4:hover{
             color: Light Orange;
@@ -288,7 +288,19 @@ gap: 8px;
         gap: 8px;
         
         }
+.row2 .widget1 .button{
+            width: 556px;
+        height:17px;
+        padding: 0px 24px 0px 24px;
+        gap: 8px; 
         
+        }
+.row2 .widget1 .button .deals{
+            width: 104px;
+        height: 17px;
+        gap: 4px;
+        display: flex;
+}       
 .row2 .widget2 {
     width:540px;
     height:400px;
@@ -305,6 +317,26 @@ gap: 8px;
 background-color: white;
 
 }
+.row2 .widget2 .growth .headsup{
+ width: 492px;
+height: 40px;
+padding: 0px 0px 16px 0px;
+display: flex;
+justify-content: space-between;
+
+}
+.row2 .widget2 .growth .heading{
+    width: 71px;
+height: 24px;
+font-size: 20px;
+
+}
+.row2 .widget2 .growth .sort{
+    width: 58px;
+height: 17px;
+gap: 4px;
+
+}
 .row2 .widget2 .frame1{
 width: 540px;
 height: 128px;
@@ -313,14 +345,41 @@ display: flex;
 }
 
 .row2 .widget2 .frame1 .month{
-    width: 169.33px;
+    \width: 169.33px;
 height: 128px;
 padding: 16px;
 border-radius: 16px;
 gap: 16px;
 background-color: white;
+display: flex;
+flex-direction: column;
 
 }
+.row2 .widget2 .frame1 .month h4{
+width: 80px;
+height: 19px;
+color: #7D7D7D;
+}
+.row2 .widget2 .frame1 .month .top{
+width: 137.33px;
+height: 61px;
+gap: 4px;
+
+}
+.row2 .widget2 .frame1 .month .top p{
+    width: 119px;
+height: 29px;
+font-size: 24px;
+color:#734A00;
+
+}
+.row2 .widget2 .frame1 .month .top h5{
+    width: 38px;
+height: 19px;
+font-size:16px;
+color: orange;
+}
+
 
 .row2 .widget2 .frame1 .year{
     width: 169.33px;
@@ -329,14 +388,42 @@ padding: 16px;
 border-radius: 16px;
 gap: 16px;
 background-color: white;
+display: flex;
+flex-direction: column;
 
 }
+.row2 .widget .frame1 .year h4{
+    width: 65px;
+height: 19px;
+}
+.row2 .widget2 .frame1 .year .top{
+    width: 137.33px;
+height: 61px;
+gap: 4px;
+}
+.row2 .widget2 .frame1 .year .top h5{
+    width: 38px;
+height: 19px;
+font-size:16px;
+color:#734A00;
+}
+.row2 .widget2 .frame1 .year .top p{
+    width: 119px;
+height: 29px;
+color:#454545;
+}
+
 .row2 .widget2 .frame1 .buyer{
     width: 169.33px;
 height: 128px;
 padding: 16px;
 border-radius: 16px;
+display: flex;
+flex-direction: column;
 gap: 16px;
 background-color: white;
-
+}
+.row2 .widget2 .frame1 .buyer h4{
+    width: 75px;
+height: 19px;
 }

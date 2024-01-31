@@ -106,16 +106,44 @@ export default function Row2() {
                   </div>
               </div>
             </div>
-            <div className='button'></div>
+            <div className='button'>
+              <div className='deals'>All Deals
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>
+            </div>
+            </div>
         </div>
         <div className='widget2'>
           <div className='growth'>
-
+            <div className='headsup'>
+              <div className='heading'>Growth</div>
+              <div className='sort'>
+                <select>
+                    <option value="option1">Yearly</option>
+                    <option value="option2">Quartely</option>
+                    <option value="option3">Monthly</option>
+                    <option value="option3">Daily</option>
+                </select></div>
+              </div>
           </div>
           <div className='frame1'>
-            <div className='month'></div>
-            <div className='year'></div>
-            <div className='buyer'></div>
+            <div className='month'>
+              <h4>Top Month</h4>
+              <div className='top'>
+                <p>November</p>
+                <h5>2019</h5>
+              </div>
+            </div>
+            <div className='year'>
+            <h4>Top Year</h4>
+            <div className='top'>
+                <h5>2023</h5>
+                <p>96K sold so far</p>
+              </div>
+            </div>
+            <div className='buyer'>
+            <h4>Top Buyer</h4>
+            </div>
           </div>
         </div>
       </div>
