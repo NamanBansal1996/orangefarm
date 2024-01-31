@@ -18,21 +18,283 @@ padding: 24px 0px 24px 0px;
 border-radius: 16px;
 gap: 16px;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 background-color: white;
 
 }
 .row2 .widget1 .heading{
+    width: 556px;
+    height: 24px;
     display: flex;
+    align-items:center ;
     justify-content: space-between;
+    padding: 0px 24px 0px 24px;
 }
+.row2 .widget1 .customers{
+    width: 105px;
+height: 24px;
+font-size: 20px;
+
+}
+.row2 .widget1 .sort{
+width: 118px;
+height: 24px;
+gap: 4px;
+}
+.row2 .widget1 .list{
+    width: 556px;
+height: 279px;
+padding: 0px 8px 0px 8px;
+display: flex;
+flex-direction: column;
+
+}
+.row2 .widget1 .list .customer1{
+width: 540px;
+height: 68px;
+padding: 16px;
+border-radius: 16px;
+margin: 0px 0px 1px 0px;
+gap: 12px;
+display: flex;
+}
+.row2 .widget1 .list .customer1:hover{
+    color: Light Orange;
+}
+.row2 .widget1 .list .customer1 .avtar{
+width: 32px;
+height: 32px;
+
+}
+.row2 .widget1 .list .customer1 .fullname{
+width: 276px;
+height: 34px;
+gap: 2px;
+
+}
+.row2 .widget1 .list .customer1 .frame{
+width: 176px;
+height: 36px;
+gap: 12px;
+display: flex;
+
+}
+.row2 .widget1 .list .customer1 .frame13{
+width: 116px;
+height: 36px;
+gap: 4px;
+display: flex;
+
+}
+.row2 .widget1 .list .customer1 .frame .frame1{
+    height: 36px;
+    width: 36px;
+    gap: 8px;
+}
+.row2 .widget1 .list .customer1 .frame .frame2{
+    height: 36px;
+    width: 36px;
+    gap: 8px;
+}
+.row2 .widget1 .list .customer1 .frame .frame3{
+    height: 36px;
+    width: 36px;
+    gap: 8px;
+}
+.row2 .widget1 .list .customer1 .frame11{
+width:36px;
+height: 36px;
+gap: 8px;
+
+}
+/* ------------customer2 */
+.row2 .widget1 .list .customer2{
+    width: 540px;
+    height: 68px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 0px 0px 1px 0px;
+    gap: 12px;
+    display: flex;
+    }
+
+    .row2 .widget1 .list .customer2:hover{
+        color: Light Orange;
+    }
+    .row2 .widget1 .list .customer2 .avtar{
+    width: 32px;
+    height: 32px;
+    
+    }
+    .row2 .widget1 .list .customer2 .fullname{
+    width: 276px;
+    height: 34px;
+    gap: 2px;
+    
+    }
+    .row2 .widget1 .list .customer2 .frame{
+    width: 176px;
+    height: 36px;
+    gap: 12px;
+    display: flex;
+    
+    }
+    .row2 .widget1 .list .customer2 .frame13{
+    width: 116px;
+    height: 36px;
+    gap: 4px;
+    display: flex;
+    
+    }
+    .row2 .widget1 .list .customer2 .frame .frame1{
+        height: 36px;
+        width: 36px;
+        gap: 8px;
+    }
+    .row2 .widget1 .list .customer2 .frame .frame2{
+        height: 36px;
+        width: 36px;
+        gap: 8px;
+    }
+    .row2 .widget1 .list .customer2 .frame .frame3{
+        height: 36px;
+        width: 36px;
+        gap: 8px;
+    }
+    .row2 .widget1 .list .customer2 .frame11{
+    width:36px;
+    height: 36px;
+    gap: 8px;
+    
+    }
+   
+
+/* ---------customer3------------ */
+.row2 .widget1 .list .customer3{
+    width: 540px;
+    height: 68px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 0px 0px 1px 0px;
+    gap: 12px;
+    display: flex;
+    }
+    .row2 .widget1 .list .customer3:hover{
+    color: Light Orange;
+}
+.row2 .widget1 .list .customer3 .avtar{
+width: 32px;
+height: 32px;
+
+}
+.row2 .widget1 .list .customer3 .fullname{
+width: 276px;
+height: 34px;
+gap: 2px;
+
+}
+.row2 .widget1 .list .customer3 .frame{
+width: 176px;
+height: 36px;
+gap: 12px;
+display: flex;
+
+}
+.row2 .widget1 .list .customer3 .frame13{
+width: 116px;
+height: 36px;
+gap: 4px;
+display: flex;
+
+}
+.row2 .widget1 .list .customer3 .frame .frame1{
+    height: 36px;
+    width: 36px;
+    gap: 8px;
+}
+.row2 .widget1 .list .customer3 .frame .frame2{
+    height: 36px;
+    width: 36px;
+    gap: 8px;
+}
+.row2 .widget1 .list .customer3 .frame .frame3{
+    height: 36px;
+    width: 36px;
+    gap: 8px;
+}
+.row2 .widget1 .list .customer3 .frame11{
+width:36px;
+height: 36px;
+gap: 8px;
+
+}
+
+    /* ------------customer4------ */
+    .row2 .widget1 .list .customer4{
+        width: 540px;
+        height: 68px;
+        padding: 16px;
+        border-radius: 16px;
+        border: 0px 0px 1px 0px;
+        gap: 12px;
+        display: flex;
+        }
+        .row2 .widget1 .list .customer4:hover{
+            color: Light Orange;
+        }
+        .row2 .widget1 .list .customer4 .avtar{
+        width: 32px;
+        height: 32px;
+        
+        }
+        .row2 .widget1 .list .customer4 .fullname{
+        width: 276px;
+        height: 34px;
+        gap: 2px;
+        
+        }
+        .row2 .widget1 .list .customer4 .frame{
+        width: 176px;
+        height: 36px;
+        gap: 12px;
+        display: flex;
+        
+        }
+        .row2 .widget1 .list .customer4 .frame13{
+        width: 116px;
+        height: 36px;
+        gap: 4px;
+        display: flex;
+        
+        }
+        .row2 .widget1 .list .customer4 .frame .frame1{
+            height: 36px;
+            width: 36px;
+            gap: 8px;
+        }
+        .row2 .widget1 .list .customer4 .frame .frame2{
+            height: 36px;
+            width: 36px;
+            gap: 8px;
+        }
+        .row2 .widget1 .list .customer4 .frame .frame3{
+            height: 36px;
+            width: 36px;
+            gap: 8px;
+        }
+        .row2 .widget1 .list .customer4 .frame11{
+        width:36px;
+        height: 36px;
+        gap: 8px;
+        
+        }
+        
 .row2 .widget2 {
     width:540px;
     height:400px;
     gap:16px;
     display: flex;
     flex-direction: column;
-
 }
 .row2 .widget2 .growth{
 width: 540px;
